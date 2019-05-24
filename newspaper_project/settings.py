@@ -137,7 +137,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-DATE_INPUT_FORMATS = ("%d %b %Y", )
+DATE_INPUT_FORMATS = ("%d %m %Y", )
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
